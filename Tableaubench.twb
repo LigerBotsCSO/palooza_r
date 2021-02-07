@@ -1,0 +1,1110 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20204.21.0114.0916                               -->
+<workbook original-version='18.1' source-build='2020.4.1 (20204.21.0114.0916)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='SP2021 - Robot Data' inline='true' name='federated.0jkbrn804r12e71fb18he0jqziby' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SP2021 - Robot Data' name='textscan.1hgbq780qfeb3w1es4kda11lqa94'>
+            <connection class='textclean' cleaning='yes' compat='no' csvFile='D:/AJC/SP2021 - Robot Data.csv' dataRefreshTime='' directory='D:/AJC' filename='C:/Users/chauj/AppData/Local/Temp/TableauTemp/0iwbcg80ti7l0m1050vl000ihbf2/SP2021 - Robot Data.csv.xlsx' interpretationMode='8' password='' port='0' server='' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1hgbq780qfeb3w1es4kda11lqa94' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:R11:no:A1:R11:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='match' ordinal='0' />
+            <column datatype='integer' name='teamNumber' ordinal='1' />
+            <column datatype='string' name='autoExitLine' ordinal='2' />
+            <column datatype='integer' name='autoLower' ordinal='3' />
+            <column datatype='integer' name='autoOuter' ordinal='4' />
+            <column datatype='integer' name='autoInner' ordinal='5' />
+            <column datatype='string' name='autoCellsCollected' ordinal='6' />
+            <column datatype='integer' name='teleopLower' ordinal='7' />
+            <column datatype='integer' name='teleopOuter' ordinal='8' />
+            <column datatype='integer' name='teleopInner' ordinal='9' />
+            <column datatype='string' name='rotationControl' ordinal='10' />
+            <column datatype='real' name='positionControl' ordinal='11' />
+            <column datatype='string' name='climb' ordinal='12' />
+            <column datatype='string' name='balanced' ordinal='13' />
+            <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+            <column datatype='string' name='parked' ordinal='15' />
+            <column datatype='string' name='pickupLoc' ordinal='16' />
+            <column datatype='string' name='wasDefended' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1hgbq780qfeb3w1es4kda11lqa94' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv$]' type='table'>
+          <columns character-set='UTF-8' gridOrigin='A1:R11:no:A1:R11:1' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='match' ordinal='0' />
+            <column datatype='integer' name='teamNumber' ordinal='1' />
+            <column datatype='string' name='autoExitLine' ordinal='2' />
+            <column datatype='integer' name='autoLower' ordinal='3' />
+            <column datatype='integer' name='autoOuter' ordinal='4' />
+            <column datatype='integer' name='autoInner' ordinal='5' />
+            <column datatype='string' name='autoCellsCollected' ordinal='6' />
+            <column datatype='integer' name='teleopLower' ordinal='7' />
+            <column datatype='integer' name='teleopOuter' ordinal='8' />
+            <column datatype='integer' name='teleopInner' ordinal='9' />
+            <column datatype='string' name='rotationControl' ordinal='10' />
+            <column datatype='real' name='positionControl' ordinal='11' />
+            <column datatype='string' name='climb' ordinal='12' />
+            <column datatype='string' name='balanced' ordinal='13' />
+            <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+            <column datatype='string' name='parked' ordinal='15' />
+            <column datatype='string' name='pickupLoc' ordinal='16' />
+            <column datatype='string' name='wasDefended' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R11:no:A1:R11:1&quot;</attribute>
+              <attribute datatype='integer' name='lost'>0</attribute>
+              <attribute datatype='integer' name='outcome'>1</attribute>
+              <attribute datatype='integer' name='processed'>90</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[match]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>match</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamNumber]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teamNumber</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoExitLine</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[autoExitLine]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoExitLine</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoLower</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoLower]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoLower</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoOuter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoOuter]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoOuter</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoInner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoInner]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoInner</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoCellsCollected</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[autoCellsCollected]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoCellsCollected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopLower</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopLower]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopLower</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopOuter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopOuter]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopOuter</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopInner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopInner]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopInner</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rotationControl</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[rotationControl]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>rotationControl</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>positionControl</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[positionControl]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>positionControl</remote-alias>
+            <ordinal>11</ordinal>
+            <hidden>true</hidden>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>climb</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[climb]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>climb</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balanced</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[balanced]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>balanced</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numOfRobotsClimbed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numOfRobotsClimbed]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>numOfRobotsClimbed</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parked</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[parked]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>parked</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pickupLoc</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[pickupLoc]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>pickupLoc</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wasDefended</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[wasDefended]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>wasDefended</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column aggregation='None' datatype='integer' name='[Auto Outer (bin)]' role='dimension' type='quantitative'>
+        <calculation class='bin' decimals='-1' formula='[autoOuter]' peg='0' size='0.714' />
+      </column>
+      <_.fcp.ObjectModelTableType.true...column caption='SP2021 - Robot Data.csv' datatype='table' name='[__tableau_internal_object_id__].[SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779]' role='measure' type='quantitative' />
+      <column caption='Auto Cells Collected' datatype='string' name='[autoCellsCollected]' role='dimension' type='nominal' />
+      <column caption='Auto Exit Line' datatype='string' name='[autoExitLine]' role='dimension' type='nominal' />
+      <column caption='Auto Inner' datatype='integer' name='[autoInner]' role='measure' type='quantitative' />
+      <column caption='Auto Lower' datatype='integer' name='[autoLower]' role='measure' type='quantitative' />
+      <column caption='Auto Outer' datatype='integer' name='[autoOuter]' role='measure' type='quantitative' />
+      <column caption='Balanced' datatype='string' name='[balanced]' role='dimension' type='nominal' />
+      <column caption='Climb' datatype='string' name='[climb]' role='dimension' type='nominal' />
+      <column caption='Match' datatype='integer' name='[match]' role='measure' type='quantitative' />
+      <column caption='Num Of Robots Climbed' datatype='integer' name='[numOfRobotsClimbed]' role='measure' type='quantitative' />
+      <column caption='Parked' datatype='string' name='[parked]' role='dimension' type='nominal' />
+      <column caption='Pickup Loc' datatype='string' name='[pickupLoc]' role='dimension' type='nominal' />
+      <column caption='Position Control' datatype='real' hidden='true' name='[positionControl]' role='dimension' type='ordinal' />
+      <column caption='Rotation Control' datatype='string' name='[rotationControl]' role='dimension' type='nominal' />
+      <column caption='Team Number' datatype='integer' name='[teamNumber]' role='dimension' type='ordinal' />
+      <column caption='Teleop Inner' datatype='integer' name='[teleopInner]' role='measure' type='quantitative' />
+      <column caption='Teleop Lower' datatype='integer' name='[teleopLower]' role='measure' type='quantitative' />
+      <column caption='Teleop Outer' datatype='integer' name='[teleopOuter]' role='measure' type='quantitative' />
+      <column caption='Was Defended' datatype='string' name='[wasDefended]' role='dimension' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SP2021 - Robot Data.csv' id='SP2021 - Robot Data.csv_9F45F660F5C749608BD9ECDBC48DE779'>
+            <properties context=''>
+              <relation connection='textscan.1hgbq780qfeb3w1es4kda11lqa94' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv$]' type='table'>
+                <columns character-set='UTF-8' gridOrigin='A1:R11:no:A1:R11:1' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='match' ordinal='0' />
+                  <column datatype='integer' name='teamNumber' ordinal='1' />
+                  <column datatype='string' name='autoExitLine' ordinal='2' />
+                  <column datatype='integer' name='autoLower' ordinal='3' />
+                  <column datatype='integer' name='autoOuter' ordinal='4' />
+                  <column datatype='integer' name='autoInner' ordinal='5' />
+                  <column datatype='string' name='autoCellsCollected' ordinal='6' />
+                  <column datatype='integer' name='teleopLower' ordinal='7' />
+                  <column datatype='integer' name='teleopOuter' ordinal='8' />
+                  <column datatype='integer' name='teleopInner' ordinal='9' />
+                  <column datatype='string' name='rotationControl' ordinal='10' />
+                  <column datatype='real' name='positionControl' ordinal='11' />
+                  <column datatype='string' name='climb' ordinal='12' />
+                  <column datatype='string' name='balanced' ordinal='13' />
+                  <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+                  <column datatype='string' name='parked' ordinal='15' />
+                  <column datatype='string' name='pickupLoc' ordinal='16' />
+                  <column datatype='string' name='wasDefended' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='SP2021 - Robot Data (2)' inline='true' name='federated.0xx5b6n0o0ji961e3gm441gh8ca0' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='SP2021 - Robot Data' name='textscan.0btwlat1wcjvgc16jmqki0hraz29'>
+            <connection class='textscan' directory='D:/AJC' filename='SP2021 - Robot Data.csv' password='' port='0' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.0btwlat1wcjvgc16jmqki0hraz29' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='match' ordinal='0' />
+            <column datatype='integer' name='teamNumber' ordinal='1' />
+            <column datatype='string' name='autoExitLine' ordinal='2' />
+            <column datatype='integer' name='autoLower' ordinal='3' />
+            <column datatype='integer' name='autoOuter' ordinal='4' />
+            <column datatype='integer' name='autoInner' ordinal='5' />
+            <column datatype='string' name='autoCellsCollected' ordinal='6' />
+            <column datatype='integer' name='teleopLower' ordinal='7' />
+            <column datatype='integer' name='teleopOuter' ordinal='8' />
+            <column datatype='integer' name='teleopInner' ordinal='9' />
+            <column datatype='string' name='rotationControl' ordinal='10' />
+            <column datatype='string' name='positionControl' ordinal='11' />
+            <column datatype='string' name='climb' ordinal='12' />
+            <column datatype='string' name='balanced' ordinal='13' />
+            <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+            <column datatype='string' name='parked' ordinal='15' />
+            <column datatype='string' name='pickupLoc' ordinal='16' />
+            <column datatype='string' name='wasDefended' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.0btwlat1wcjvgc16jmqki0hraz29' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+            <column datatype='integer' name='match' ordinal='0' />
+            <column datatype='integer' name='teamNumber' ordinal='1' />
+            <column datatype='string' name='autoExitLine' ordinal='2' />
+            <column datatype='integer' name='autoLower' ordinal='3' />
+            <column datatype='integer' name='autoOuter' ordinal='4' />
+            <column datatype='integer' name='autoInner' ordinal='5' />
+            <column datatype='string' name='autoCellsCollected' ordinal='6' />
+            <column datatype='integer' name='teleopLower' ordinal='7' />
+            <column datatype='integer' name='teleopOuter' ordinal='8' />
+            <column datatype='integer' name='teleopInner' ordinal='9' />
+            <column datatype='string' name='rotationControl' ordinal='10' />
+            <column datatype='string' name='positionControl' ordinal='11' />
+            <column datatype='string' name='climb' ordinal='12' />
+            <column datatype='string' name='balanced' ordinal='13' />
+            <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+            <column datatype='string' name='parked' ordinal='15' />
+            <column datatype='string' name='pickupLoc' ordinal='16' />
+            <column datatype='string' name='wasDefended' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;en_US&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>match</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[match]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>match</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teamNumber</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teamNumber]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teamNumber</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoExitLine</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[autoExitLine]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoExitLine</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoLower</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoLower]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoLower</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoOuter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoOuter]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoOuter</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoInner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[autoInner]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoInner</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>autoCellsCollected</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[autoCellsCollected]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>autoCellsCollected</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopLower</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopLower]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopLower</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopOuter</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopOuter]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopOuter</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>teleopInner</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[teleopInner]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>teleopInner</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>rotationControl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[rotationControl]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>rotationControl</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>positionControl</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[positionControl]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>positionControl</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <approx-count>1</approx-count>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>climb</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[climb]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>climb</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>balanced</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[balanced]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>balanced</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>numOfRobotsClimbed</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[numOfRobotsClimbed]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>numOfRobotsClimbed</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parked</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[parked]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>parked</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>pickupLoc</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[pickupLoc]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>pickupLoc</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>wasDefended</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[wasDefended]</local-name>
+            <parent-name>[SP2021 - Robot Data.csv]</parent-name>
+            <remote-alias>wasDefended</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LEN_RUS' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='SP2021 - Robot Data.csv' datatype='table' name='[__tableau_internal_object_id__].[SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42]' role='measure' type='quantitative' />
+      <column caption='Auto Cells Collected' datatype='string' name='[autoCellsCollected]' role='dimension' type='nominal' />
+      <column caption='Auto Exit Line' datatype='string' name='[autoExitLine]' role='dimension' type='nominal' />
+      <column caption='Auto Inner' datatype='integer' name='[autoInner]' role='measure' type='quantitative' />
+      <column caption='Auto Lower' datatype='integer' name='[autoLower]' role='measure' type='quantitative' />
+      <column caption='Auto Outer' datatype='integer' name='[autoOuter]' role='measure' type='quantitative' />
+      <column caption='Balanced' datatype='string' name='[balanced]' role='dimension' type='nominal' />
+      <column caption='Climb' datatype='string' name='[climb]' role='dimension' type='nominal' />
+      <column caption='Match' datatype='integer' name='[match]' role='measure' type='quantitative' />
+      <column caption='Num Of Robots Climbed' datatype='integer' name='[numOfRobotsClimbed]' role='measure' type='quantitative' />
+      <column caption='Parked' datatype='string' name='[parked]' role='dimension' type='nominal' />
+      <column caption='Pickup Loc' datatype='string' name='[pickupLoc]' role='dimension' type='nominal' />
+      <column caption='Position Control' datatype='string' name='[positionControl]' role='dimension' type='nominal' />
+      <column caption='Rotation Control' datatype='string' name='[rotationControl]' role='dimension' type='nominal' />
+      <column caption='Team Number' datatype='integer' name='[teamNumber]' role='dimension' type='ordinal' />
+      <column caption='Teleop Inner' datatype='integer' name='[teleopInner]' role='measure' type='quantitative' />
+      <column caption='Teleop Lower' datatype='integer' name='[teleopLower]' role='measure' type='quantitative' />
+      <column caption='Teleop Outer' datatype='integer' name='[teleopOuter]' role='measure' type='quantitative' />
+      <column caption='Was Defended' datatype='string' name='[wasDefended]' role='dimension' type='nominal' />
+      <column-instance column='[climb]' derivation='Attribute' name='[attr:climb:nk]' pivot='key' type='nominal' />
+      <column-instance column='[Forecast Indicator]' derivation='None' forecast-column-base='[Forecast Indicator]' forecast-column-type='forecast-indicator' name='[none:Forecast Indicator:nk]' pivot='key' type='nominal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='shape' field='[attr:climb:nk]' type='shape'>
+            <map to=':filled/square'>
+              <bucket>%null%</bucket>
+            </map>
+            <map to=':filled/square'>
+              <bucket>&quot;No&quot;</bucket>
+            </map>
+            <map to=':filled/triangle'>
+              <bucket>&quot;Yes&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <default-sorts>
+        <manual-sort column='[none:Forecast Indicator:nk]' direction='ASC'>
+          <dictionary>
+            <bucket>&quot;Actual&quot;</bucket>
+            <bucket>&quot;Estimate&quot;</bucket>
+          </dictionary>
+        </manual-sort>
+      </default-sorts>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='SP2021 - Robot Data.csv' id='SP2021 - Robot Data.csv_8B018321892F429FBBB28A617368EC42'>
+            <properties context=''>
+              <relation connection='textscan.0btwlat1wcjvgc16jmqki0hraz29' name='SP2021 - Robot Data.csv' table='[SP2021 - Robot Data#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='en_US' separator=','>
+                  <column datatype='integer' name='match' ordinal='0' />
+                  <column datatype='integer' name='teamNumber' ordinal='1' />
+                  <column datatype='string' name='autoExitLine' ordinal='2' />
+                  <column datatype='integer' name='autoLower' ordinal='3' />
+                  <column datatype='integer' name='autoOuter' ordinal='4' />
+                  <column datatype='integer' name='autoInner' ordinal='5' />
+                  <column datatype='string' name='autoCellsCollected' ordinal='6' />
+                  <column datatype='integer' name='teleopLower' ordinal='7' />
+                  <column datatype='integer' name='teleopOuter' ordinal='8' />
+                  <column datatype='integer' name='teleopInner' ordinal='9' />
+                  <column datatype='string' name='rotationControl' ordinal='10' />
+                  <column datatype='string' name='positionControl' ordinal='11' />
+                  <column datatype='string' name='climb' ordinal='12' />
+                  <column datatype='string' name='balanced' ordinal='13' />
+                  <column datatype='integer' name='numOfRobotsClimbed' ordinal='14' />
+                  <column datatype='string' name='parked' ordinal='15' />
+                  <column datatype='string' name='pickupLoc' ordinal='16' />
+                  <column datatype='string' name='wasDefended' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Sheet 1' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='ATTR(Climb)' />
+        <param name='target' value='Sheet 1' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='SP2021 - Robot Data (2)' name='federated.0xx5b6n0o0ji961e3gm441gh8ca0' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0xx5b6n0o0ji961e3gm441gh8ca0'>
+            <column-instance column='[climb]' derivation='Attribute' name='[attr:climb:nk]' pivot='key' type='nominal' />
+            <column caption='Auto Inner' datatype='integer' name='[autoInner]' role='measure' type='quantitative' />
+            <column caption='Auto Outer' datatype='integer' name='[autoOuter]' role='measure' type='quantitative' />
+            <column caption='Climb' datatype='string' name='[climb]' role='dimension' type='nominal' />
+            <column caption='Match' datatype='integer' name='[match]' role='measure' type='quantitative' />
+            <column-instance column='[autoInner]' derivation='None' name='[none:autoInner:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[autoOuter]' derivation='None' name='[none:autoOuter:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[match]' derivation='None' name='[none:match:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teleopInner]' derivation='None' name='[none:teleopInner:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[teleopOuter]' derivation='None' name='[none:teleopOuter:qk]' pivot='key' type='quantitative' />
+            <column caption='Teleop Inner' datatype='integer' name='[teleopInner]' role='measure' type='quantitative' />
+            <column caption='Teleop Outer' datatype='integer' name='[teleopOuter]' role='measure' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='show-null-value-warning' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoInner:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopInner:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='3' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopOuter:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='4' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoOuter:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <shape column='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' />
+            </encodings>
+            <trendline enable-confidence-bands='false' enable-instant-analytics='true' enabled='true' exclude-color='false' exclude-intercept='false' fit='linear' />
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoInner:qk] + ([federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopInner:qk] + ([federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopOuter:qk] + [federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoOuter:qk])))</rows>
+        <cols>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:match:qk]</cols>
+        <forecast-specification auto-forecast-agg='true' band-confidence-level='95.000000' enabled='true' fill-type='fill-missing' ignore-last='1' model-type='auto-season' range-type='auto' show-prediction-bands='true' />
+      </table>
+      <simple-id uuid='{B7FB5A2E-4A6E-4DA6-A399-272F2888B226}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='51'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]' type='shape' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0jkbrn804r12e71fb18he0jqziby].[none:autoOuter:qk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[attr:climb:nk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoInner:qk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:autoOuter:qk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:climb:nk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:match:qk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopInner:qk]</field>
+            <field>[federated.0xx5b6n0o0ji961e3gm441gh8ca0].[none:teleopOuter:qk]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{1761F97B-A69D-4FDE-9706-F5F719AFA4EF}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='Sheet 1' width='192'>
+      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
+    </thumbnail>
+  </thumbnails>
+</workbook>
